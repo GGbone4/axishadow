@@ -372,7 +372,7 @@ module axishadow #(
                         // Note: if shr_cnt hits 0, state transition logic would go back to R_IDLE (or handle completion).
                     end
                 end
-            endcase
+            endcase`
         end
     end
 
